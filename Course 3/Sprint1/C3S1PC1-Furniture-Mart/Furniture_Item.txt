@@ -1,0 +1,9 @@
+FurnitureItem-
+Plastic Furniture
+
+Attributes-
+type, usage, colors, grades
+
+Behaviors-
+calculate discount
+

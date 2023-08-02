@@ -1,0 +1,8 @@
+Class-
+SavingsAccount
+
+Attributes-
+accountNumber, accountHolderName, accountBalance, accountStatus, age, accountType, phoneNumber, address
+
+Behaviours-
+createCustomerAccount, customerServices, bankingServices, debitCash, creditCash, handleTransfer
