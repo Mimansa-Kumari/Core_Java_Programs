@@ -1,0 +1,39 @@
+CHALLENGE-2
+
+
+Task 1- Write an algorithm for the given problem statement
+
+Algorithm
+
+Step 1- START
+Step 2- Accept Minimum value from User as Min_Value
+Step 3- Accept Maximum Value from User as Max_Value
+Step 4- Initialize a variable Sum as 0
+Step 5- For range between Min_Value and Max_Value check each number if it is Prime or not
+Step 6- If it is Prime than add the number in Sum
+Step 7- Repeat step 4 & 5 till the number becomes equal to the Max_Value
+Step 8- Print the Sum 
+Step 9- STOP
+
+
+Task 2- Write the Pseudocode for the given problem statement
+
+
+Pseudocode
+
+. BEGIN
+. GET Minimum Value as Min_Value
+. GET Maximum Value as Max_Value
+. SET Sum =0
+. FOR i=Min_value to Max_Value step 1
+	FOR j=2 to i step 1
+	    if(i%j==0)
+		 BEGINIF
+			Sum=Sum+i
+		 ENDIF
+	ENDFOR
+  ENDFOR
+. PRINT Sum of the Prime Numbers is +Sum
+. END
+
+

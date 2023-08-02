@@ -1,0 +1,34 @@
+Task 1-	Write an algorithm to calculate the discount if the total bill amount is greater than or equal to $500 and display the discounted amount.
+Get the total bill amount from the user.
+
+Task 2-Convert the algorithm to Pseudocode.
+
+
+
+Task 1- Algorithm
+
+step 1- Start
+step 2- Accept Total bill Amount from User
+step 3- If the total bill amount is greater than or equal to 500 than
+		calculate the 5% of the Total bill amount and display the discounted Amount.
+step 4- If the total bill amount is less than 500 than 
+		display the discounted amount as 0.
+step 5- Stop
+
+
+
+Task 2- Pseudocode
+
+. BEGIN
+. GET Total Bill Amount as T_Bill
+. If (T_Bill>=500)
+	BEGIN
+		SET Discount=(5/100)*T_Bill
+		PRINT Discount= +Discount
+	END
+  ELSE
+	BEGIN
+		PRINT Discount= 0
+	END
+. END	
+

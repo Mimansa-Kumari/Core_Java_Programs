@@ -1,0 +1,44 @@
+CHALLENGE 1
+
+
+TASK 1-Calculate the bonus that each employee will get.
+
+ Algorithm
+
+step 1 - START
+step 2 - Initialize a variable highest_Salary as 0 , sum as 0
+step 3 - For all employees count follow the below steps
+step 4 - Check each Department if it is Sales or not, if it is sales then		
+step 5 - Calculate the Bonus Salary 
+step 6 - Print the Bonus salary										//Task 1
+step 7 - Assign sum + Bonus salary in sum
+step 8 - Check if the Bonus salary is greater than highest_Salary or not,
+	   if it is greater then assign the Bonus salary in highest_Salary
+step 9 - Increase the count value by 1 and go back to step 3 
+step 10- Print the highest_Salary										//Task 2
+Step 11- Calculate average bonus salary
+step 12- Print the average bonus salary									//Task 3
+step 13- Print sum as total amount    									//Task 4
+step 14- STOP
+
+ Pseudocode
+
+. BEGIN
+. SET highest_Salary = 0 , sum = 0
+. FOR Employees = 0 to count STEP 1 
+. IF(Department=Sales)
+	BEGIN
+		Bonus Salary= (10/100)*Annual Salary
+		PRINT Bonus Salary 										//Task 1
+		Sum= Sum + Bonus Salary
+		IF(Bonus Salary > Highest Salary)
+			BEGIN
+				Highest Salary = Bonus Salary	
+				Count= Count + 1
+			END
+  END
+. PRINT Highest Salary												//Task 2
+. Average Bonus Salary = Sum/count
+. PRINT Average Bonus Salary											//Task 3
+. PRINT Sum														//Task 4
+. END
