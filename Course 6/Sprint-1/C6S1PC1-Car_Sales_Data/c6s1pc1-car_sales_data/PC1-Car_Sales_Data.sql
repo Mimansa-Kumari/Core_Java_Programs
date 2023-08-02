@@ -1,0 +1,11 @@
+create database car_sales;
+create table car_sales.sales_person(salesId int primary key,firstName varchar(20),city varchar(20),commissionRate int);
+use car_sales;
+insert into sales_person values(1001,'John','London',12);
+insert into sales_person values(1002,'Bob','San Jose',13);
+insert into sales_person values(1004,'Judith','London',11);
+insert into sales_person values(1007,'Robin','Barcelona',15);
+insert into sales_person values(1003,'Harry','New York',10);
+insert into sales_person values(1005,'James','London',26);
+insert into sales_person values(1008,'Charles','Florida',0);
+SELECT * FROM car_sales.sales_person;
